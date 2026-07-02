@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A JSON-powered web app for Welo Global, showcasing multilingual content, AI data, localization, and life sciences solutions."
+    />
+    <title>Welo Global | Multilingual Content, Data & AI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#hero" aria-label="Welo Global home">
+          <span class="brand-mark">W</span>
+          <span>Welo Global</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#solutions">Solutions</a>
+          <a href="#brands">Brands</a>
+          <a href="#impact">Impact</a>
+          <a href="#contact" class="button button-small">Get in touch</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-content="hero.eyebrow">Multilingual Content, Data & AI Solutions</p>
+          <h1 data-content="hero.title">Global content. Smarter AI. Better business.</h1>
+          <p class="hero-text" data-content="hero.description">
+            Welo Global helps organizations localize, train, validate, and scale across languages,
+            cultures, and regulated domains.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Plan a global program</a>
+            <a class="button button-secondary" href="#solutions">Explore solutions</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Welo capabilities snapshot">
+          <div class="pulse"></div>
+          <h2>Enterprise-ready multilingual operations</h2>
+          <div class="metric-grid" id="metric-grid"></div>
+        </aside>
+      </section>
+
+      <section class="section" id="solutions">
+        <div class="section-heading">
+          <p class="eyebrow">What Welo powers</p>
+          <h2>Purpose-built solutions for teams moving across borders.</h2>
+          <p>
+            This app loads core company content from JSON so teams can update messages,
+            metrics, cards, and calls to action without changing the page structure.
+          </p>
+        </div>
+        <div class="card-grid" id="solution-grid"></div>
+      </section>
+
+      <section class="section section-alt" id="brands">
+        <div class="section-heading">
+          <p class="eyebrow">Brand ecosystem</p>
+          <h2>Specialized brands connected by Welo Global expertise.</h2>
+        </div>
+        <div class="brand-list" id="brand-list"></div>
+      </section>
+
+      <section class="section impact" id="impact">
+        <div>
+          <p class="eyebrow">Operational confidence</p>
+          <h2>Built for quality, governance, and scale.</h2>
+          <p>
+            From AI training data to regulated translation, Welo combines domain experts,
+            human review, and technology-enabled workflows to support measurable outcomes.
+          </p>
+        </div>
+        <div class="impact-panel">
+          <h3>Program readiness checklist</h3>
+          <ul id="checklist"></ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Start a conversation</p>
+          <h2>Tell Welo what you need to launch, localize, or evaluate.</h2>
+          <p>
+            Use the sample JSON endpoint to adapt this static app into a CMS-backed or API-backed
+            experience.
+          </p>
+        </div>
+        <form class="contact-form" aria-label="Contact form demo">
+          <label>
+            Work email
+            <input type="email" name="email" placeholder="you@company.com" required />
+          </label>
+          <label>
+            Use case
+            <select name="use-case" required>
+              <option value="">Select a use case</option>
+              <option>Localization at scale</option>
+              <option>AI training data</option>
+              <option>Life sciences content</option>
+              <option>Global marketing</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Share languages, volumes, domains, or timeline."></textarea>
+          </label>
+          <button class="button" type="submit">Send demo request</button>
+          <p class="form-note" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Welo Global demo app.</p>
+      <a href="data/company.json">View JSON content</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
