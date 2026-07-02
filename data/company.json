@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "eyebrow": "Multilingual Content, Data & AI Solutions",
+    "title": "Global content. Smarter AI. Better business.",
+    "description": "Welo Global helps organizations localize, train, validate, and scale across languages, cultures, and regulated domains."
+  },
+  "metrics": [
+    { "value": "300+", "label": "Languages supported" },
+    { "value": "7", "label": "ISO certifications" },
+    { "value": "2,000+", "label": "Clients served" },
+    { "value": "24/7", "label": "Global operations" }
+  ],
+  "solutions": [
+    {
+      "title": "Scaled localization",
+      "description": "Deliver high-quality multilingual content across markets with AI-enabled workflows and expert review.",
+      "tag": "Enterprise content"
+    },
+    {
+      "title": "AI training data",
+      "description": "Create, annotate, validate, and evaluate datasets with domain-matched specialists and quality controls.",
+      "tag": "Human-in-the-loop AI"
+    },
+    {
+      "title": "Life sciences translation",
+      "description": "Support clinical, regulatory, medical device, and pharmacovigilance content in inspection-ready workflows.",
+      "tag": "Regulated content"
+    },
+    {
+      "title": "Global marketing performance",
+      "description": "Adapt campaigns for local relevance so brands show up with clarity, context, and measurable impact.",
+      "tag": "International growth"
+    }
+  ],
+  "brands": [
+    {
+      "name": "Welocalize",
+      "summary": "Localization and AI-enabled multilingual content for global enterprises."
+    },
+    {
+      "name": "Adapt",
+      "summary": "International digital marketing and performance content across markets."
+    },
+    {
+      "name": "Park IP",
+      "summary": "Intellectual property translation and foreign filing support."
+    },
+    {
+      "name": "Welo Life Sciences",
+      "summary": "Specialized language solutions for life sciences and regulated health content."
+    },
+    {
+      "name": "Welo Data",
+      "summary": "Enterprise AI training data, evaluation, and human validation programs."
+    }
+  ],
+  "checklist": [
+    "Map required languages, locales, and cultural variants.",
+    "Define quality thresholds, review stages, and compliance needs.",
+    "Match domain specialists to content, data, or evaluation tasks.",
+    "Measure delivery speed, accuracy, and business outcomes."
+  ]
+}
